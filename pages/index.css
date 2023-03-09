@@ -1,2 +1,10 @@
 /* normalize */
 @import url(../vendor/normalize.css);
+
+
+
+/* card */
+@import url(../blocks/card/card.css);
+
+/* slider */
+@import url(../blocks/slider/slider.css);
