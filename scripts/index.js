@@ -1,3 +1,31 @@
+const slideInfo = [
+    {
+        title: '',
+        link: '',
+    },
+    {
+        title: '',
+        link: '',
+    },
+    {
+        title: '',
+        link: '',
+    },
+    {
+        title: '',
+        link: '',
+    },
+    {
+        title: '',
+        link: '',
+    },
+    {
+        title: '',
+        link: '',
+    },
+
+]
+
 const cardArray = Array.from(document.querySelectorAll('.card'));
 
 function renderSlide() {
