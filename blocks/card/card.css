@@ -3,11 +3,33 @@
     margin: 15px;
     padding: 0;
 
+    position: relative;
+
     display: flex;
     flex-direction: column;
     flex: 1;
 
     color: #fff;
+
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+
+.card_is-active {
+    flex: 10;
+}
+
+.card__title {
+    position: absolute;
+    left: 30px;
+    bottom: 25px;
+
+    opacity: 0;
+}
+
+.card__title_is-active {
+    opacity: 1;
+    transition: opacity 0.5 ease-in;
 }
 
 .card__cover {
@@ -16,7 +38,7 @@
 
     border-radius: 15px;
 
-    background-color: aqua;
+    background-color: rgb(26, 80, 80);
     object-fit: cover;
     object-position: center;
 }
