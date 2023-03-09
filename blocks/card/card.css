@@ -1,8 +1,22 @@
 .card {
-    display: flex;
+    height: 100%;
+    margin: 15px;
+    padding: 0;
 
-    margin: 0;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 
     color: #fff;
+}
+
+.card__cover {
+    height: 100%;
+    width: 100%;
+
+    border-radius: 15px;
+
+    background-color: aqua;
+    object-fit: cover;
+    object-position: center;
 }

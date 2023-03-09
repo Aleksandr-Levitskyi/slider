@@ -2,5 +2,7 @@
     max-width: 1440px;
     min-height: 320px;
 
+    margin: 0 auto;
+
     background: #020a22;
 }
