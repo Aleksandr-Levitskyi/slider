@@ -1,5 +1,15 @@
 const cardArray = Array.from(document.querySelectorAll('.card'));
 
+function renderSlide() {
+
+}
+
+const removeClassSlide = () => {
+    cardArray.forEach((item) => {
+        item.classList.remove('card_is-active');
+    });
+}
+
 cardArray.forEach((item) => {
     item.addEventListener('click', () => {
         removeClassSlide();
@@ -7,8 +17,4 @@ cardArray.forEach((item) => {
     });
 });
 
-const removeClassSlide = () => {
-    cardArray.forEach((item) => {
-        item.classList.remove('card_is-active');
-    });
-}
+
